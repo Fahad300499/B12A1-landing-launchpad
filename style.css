@@ -14,6 +14,7 @@
     background-image: url(Assets/Hero-bg.png);
     max-width: 1440px;
     height: 700px;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -89,5 +90,55 @@
 }
 .banner-btn a:hover{
     color: #4E47FF;
+}
+
+.action-section{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 116px;
+    align-items: center;
+}
+
+.action-section-left{
+    width: 517px;
+    height: 203px;
+    margin: 62px 0px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-family: raleway;
+    font-weight: bold;
+}
+
+.action-desc{
+    font-size: 24px;
+    font-family: raleway;
+    font-weight: 400;
+}
+
+.action-btn{
+    width: 230px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+}
+.action-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: bold;
+}
+.action-section-right{
+    width: 403px;
+    height: 328px;
+}
+.action-section-right img{
+    border-radius: 48px;
 }
 
