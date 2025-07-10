@@ -47,3 +47,47 @@
     font-family: raleway;
     padding: 36px 12px;
 }
+
+.banner{
+    margin: 0 auto;
+    text-align: center;
+    width: 905px;
+    height: 237px;
+    margin-top: 158px;
+}
+
+.banner-desc{
+    font-size: 65px;
+    font-family: raleway;
+    font-weight: bold;
+    
+}
+
+.banner-btn{
+    margin-top:37px ;
+    width: 180px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-out;
+}
+
+.banner-btn:hover{
+    border: 1px solid #4E47FF;
+    background-color: transparent;
+}
+
+.banner-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: bold;
+
+}
+.banner-btn a:hover{
+    color: #4E47FF;
+}
+
