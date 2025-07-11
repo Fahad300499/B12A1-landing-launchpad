@@ -130,11 +130,22 @@ body{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    margin-bottom: 20px;
+}
+
+.action-btn:hover{
+    background-color: transparent;
+    border: 1px solid #4E47FF;
 }
 .action-btn a{
     color: white;
     text-decoration: none;
     font-size: 16px;
+    font-family: raleway;
+    font-weight: bold;
+}
+.action-btn a:hover{
+    color:#4E47FF;
     font-family: raleway;
     font-weight: bold;
 }
@@ -151,7 +162,7 @@ body{
     margin: 0 auto;
     text-align: center;
     margin-top: 116px;
-    background-color:rgba(77, 71, 255, 0.274);
+    background-color: #E5E7FF;
     padding: 50px 142px;
     border-radius: 24px;
 }
@@ -192,7 +203,7 @@ body{
     height: 340px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 130px;
+    padding-top: 100px;
 
 }
 
@@ -250,11 +261,44 @@ body{
     margin-top: 10px;
 }
 
-/* .card p{
-    font-size: 18px;
-    margin-top: -20px;
-    margin-bottom: 25px;
-} */
+.focus-container{
+    width: 1140px;
+    height: 690px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 230px;
+    text-align: center;
+}
+
+.focus-content{
+    padding: 10px;
+}
+
+.focus-content h1{
+    font-size: 50px;
+    font-family: raleway;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.focus-content p{
+    font-family: inter;
+}
+
+
+.focus-img{
+    width: 840px;
+    height: 360px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.focus-img img{
+border-radius: 48px;
+}
+
+
+
 
 .touch-container {
             display: flex;
@@ -265,7 +309,8 @@ body{
             margin: 0 auto;
             flex-wrap: wrap;
             gap: 40px;
-            margin-top: 100px;
+            margin-top: 20px;
+            
             align-items: center;
             
         }
@@ -353,7 +398,7 @@ body{
     padding: 30px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .footer-content{
