@@ -11,14 +11,18 @@
 }
 
 
+
 body{
     background-color: #F5F8FF;
+    overflow-x: hidden;
+    
 }
 .header{
     background-image: url(Assets/Hero-bg.png);
-    max-width: 1440px;
+    width: 100%;
     height: 700px;
     margin: 0 auto;
+   
 }
 
 .navbar{
@@ -401,7 +405,7 @@ border-radius: 48px;
         }
 
 .footer{
-    max-width: 1440px;
+    width: 100%;
     height: 428px;
     background-color: white;
     padding: 30px;
