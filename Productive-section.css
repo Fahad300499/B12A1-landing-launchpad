@@ -1,0 +1,53 @@
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Productive-Users-Section{
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 116px;
+    background-color: #E5E7FF;
+    padding: 50px 0px;
+    border-radius: 24px;
+}
+
+.user-section-title{
+    color: black;
+    font-size: 38px;
+    font-family: raleway;
+    font-weight: bold;
+}
+
+.user-section-activity{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+    width: 856px;
+    height: 120px;
+}
+
+.user-activity-title{
+    font-size: 80px;
+    color:#4E47FF;
+    font-family: inter;
+    font-weight: bold;
+}
+.user-activity-sub-title{
+    margin-top: -80px;
+    font-size: 20px;
+    color: black;
+    font-family: inter;
+    font-weight: 400;
+    text-align: center;
+}

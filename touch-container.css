@@ -1,0 +1,103 @@
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.touch-container {
+            display: flex;
+            border-radius: 10px;
+            padding: 40px;
+            width: 1140px;
+            height: 630px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 20px;
+            
+            align-items: center;
+            
+        }
+
+        .touch-left-section {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            align-items: center; 
+        }
+
+        .touch-left-section h1 {
+            font-size: 90px;
+            font-family: raleway;
+            font-weight: bold;
+            color: #1a1a1a;
+            line-height: 1.1;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .touch-right-section {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .touch-form {
+            margin-bottom: 25px;
+        }
+
+        .touch-form label {
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: inter;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .touch-form input[type="email"],
+        .touch-form input[type="text"],
+        .touch-form textarea {
+            width: 100%;
+            height:80px;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box; 
+            transition: border-color 0.3s ease;
+        }
+
+        .touch-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .touch-submit-button {
+            width: 100%;
+            height: 60px;
+            padding: 15px;
+            background-color: #4E47FF; 
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: raleway;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .touch-submit-button:hover {
+            border:1px solid #5344b0; 
+            background-color: transparent;
+            color: #5344b0; 
+            height: 70px;
+        }

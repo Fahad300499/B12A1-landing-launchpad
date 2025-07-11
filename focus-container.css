@@ -1,0 +1,47 @@
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.focus-container{
+    width: 1140px;
+    height: 690px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 230px;
+    text-align: center;
+}
+
+.focus-content{
+    padding: 10px;
+}
+
+.focus-content h1{
+    font-size: 50px;
+    font-family: raleway;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.focus-content p{
+    font-family: inter;
+}
+
+
+.focus-img{
+    width: 840px;
+    height: 360px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.focus-img img{
+border-radius: 48px;
+}
