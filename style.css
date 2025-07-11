@@ -44,6 +44,15 @@ body{
     border: none;
 }
 
+.nav-btn:hover{
+    background-color: transparent;
+    border:1px solid #4E47FF;
+}
+
+.nav-btn a:hover{
+    color: #4E47FF;
+}
+
 .nav-btn a{
     text-decoration: none;
     color: white;
